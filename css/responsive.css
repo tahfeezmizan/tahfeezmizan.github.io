@@ -731,6 +731,69 @@
     }
 }
 
-
+.whatsapp-icon {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 53px;
+    font-size: 28px;
+    z-index: 9999;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .whatsapp-icon:hover {
+    background-color: black;
+    color: white;
+  }
+  
+        /*! CSS Used from: Embedded */
+      .scroll-top.jsx-9aebc43577dd89db {
+        display: none; /* Initially hide the button */
+        background-color: rgb(255 89 90 / 0%);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        bottom: 90px;
+        cursor: pointer;
+        height: 35px;
+        position: fixed;
+        right: 30px;
+        text-align: center;
+        width: 35px;
+        z-index: 999;
+        line-height: 38px;
+      }
+  
+      .scroll-top.jsx-9aebc43577dd89db svg.jsx-9aebc43577dd89db {
+        color: #ff595a;
+        width: 22px;
+      }
+      /*! CSS Used from: Embedded */
+      *,
+      ::after,
+      ::before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+  
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+  
+      *:focus {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+      }
   
 
